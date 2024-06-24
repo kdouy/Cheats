@@ -11,7 +11,7 @@ void bunnyHop();
 
 int main()
 {
-    SetConsoleTitleA("Vaultality | External Bunny Hop");
+    SetConsoleTitleA("kesh | External Bunny Hop");
 
     thread windowActiveThread(windowActive);
     thread bunnyHopThread(bunnyHop);
